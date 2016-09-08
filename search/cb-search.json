@@ -1,17 +1,12 @@
----
-layout: null
----
 {
 	"code" : 0 ,
 	"data" : [
-	 {% for post in site.posts %}
+	 
 	{
-		"title" : "{{ post.title }} - {{ post.date | date_to_utc | date: '%Y-%m-%d'}}",
-		"url" : "{{ post.url }}"
+		"title" : "Willkommen zu Sauraus.ch - 2016-09-08",
+		"url" : "/2016/09/08/willkommen-to-sauraus-ch.html"
 	}
-	{% if forloop.rindex != 1  %}
-	,
-	{% endif %}
-    {% endfor %}
+	
+    
 	]
 }

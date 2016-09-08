@@ -1,9 +1,48 @@
----
-layout: default
-title: index
-permalink: /
----
-<div class="navbar-wrapper">
+<!DOCTYPE html>
+<html>
+  
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta content="Sauraus -- Cevi Festival 2017" name="description">
+  <meta name="keywords" content="Cevi, Cevi Region Bern, Festival, Leiterevent, Sauraus">
+  <meta name="author" content="Yakin">
+  <title>Sauraus</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/static/img/favicon.png">
+
+  <!-- Third-party CSS -->
+  <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/bower_components/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet">
+  <!-- <link href="/bower_components/toastr/toastr.min.css" rel="stylesheet"> -->
+  <link href="/bower_components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <!-- <link href="/static/css/pygments.css" rel="stylesheet"> -->
+  <link type="text/css" rel="stylesheet" href="/assets/main.css">
+
+  <!-- Third-party scripts -->
+  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/bower_components/i18next/i18next.min.js"></script>
+  <script src="/bower_components/PACE/pace.min.js"></script>
+  <script src="/bower_components/wow/dist/wow.min.js"></script>
+
+  <!-- Custom and plugin javascript -->
+  <!-- <script src="/static/js/inspinia.js"></script> -->
+
+</head>
+
+  
+
+  <body id="page-top" class="landing-page">
+    
+
+    <div class="navbar-wrapper">
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
               <div class="navbar-header page-scroll">
@@ -13,16 +52,16 @@ permalink: /
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
+                  <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Sauraus</span></a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                      <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
-                      <li><a class="page-scroll" href="#about"><span data-i18n="nav.about">{{ site.landing.about }}</span></a></li>
-                      <li><a class="page-scroll" href="#what_where"><span data-i18n="nav.what_where">{{ site.landing.what_where }}</span></a></li>
-                      <li><a class="page-scroll" href="#program"><span data-i18n="nav.program">{{ site.landing.program }}</span></a></li>
-                      <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
-                      <li><a class="page-scroll" href="#link"><span data-i18n="nav.link">{{ site.landing.link }}</span></a></li>
+                      <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">Home</span></a></li>
+                      <li><a class="page-scroll" href="#about"><span data-i18n="nav.about">Über uns</span></a></li>
+                      <li><a class="page-scroll" href="#what_where"><span data-i18n="nav.what_where">Was&Wo</span></a></li>
+                      <li><a class="page-scroll" href="#program"><span data-i18n="nav.program">Programm</span></a></li>
+                      <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">Blog</span></a></li>
+                      <li><a class="page-scroll" href="#link"><span data-i18n="nav.link">Links</span></a></li>
                   </ul>
               </div>
           </div>
@@ -164,7 +203,7 @@ permalink: /
         <div class="row">
             <div class="col-sm-6 wow fadeInLeft">
                 <div class="team-member">
-                    <img src="{{ site.project.saplatform.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <img src="/" class="img-responsive img-circle img-small" alt="">
                     <h4>Lagerfeuer</h4>
                     <p>Am Lagerfeuer sitzen, Gitarre klimpern und es sich gut gehen lassen...</p>
                 </div>
@@ -172,7 +211,7 @@ permalink: /
 
             <div class="col-sm-6 wow fadeInRight">
                 <div class="team-member">
-                    <img src="{{ site.project.jalpc.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <img src="/" class="img-responsive img-circle img-small" alt="">
                     <h4>Spiel &amp; Sport</h4>
                     <p>Weil Nightgames immer ein Höhepunkt sind.</p>
                 </div>
@@ -182,7 +221,7 @@ permalink: /
         <div class="row">
             <div class="col-sm-6 wow fadeInLeft">
                 <div class="team-member">
-                    <img src="{{ site.project.angularjs.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <img src="/" class="img-responsive img-circle img-small" alt="">
                     <h4>Freunde</h4>
                     <p>Lerne andere Leiterinnen und Leiter kennen, und triff Leute aus Kursen wieder!</p>
                 </div>
@@ -190,7 +229,7 @@ permalink: /
 
             <div class="col-sm-6 wow fadeInRight">
                 <div class="team-member">
-                    <img src="{{ site.project.Rsser.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <img src="/" class="img-responsive img-circle img-small" alt="">
                     <h4>Cevi</h4>
                     <p>Entdecke die Vielfalt des Cevi Region Bern.</p>
                 </div>
@@ -248,7 +287,7 @@ permalink: /
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p id="jalpc_site_pv"><strong>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</strong></p>
+                <p id="jalpc_site_pv"><strong>&copy; 2016 Sauraus</strong></p>
             </div>
         </div>
     </div>
@@ -304,3 +343,16 @@ permalink: /
     // Activate WOW.js plugin for animation on scrol
     new WOW().init();
 </script>
+
+
+    
+      <script async src="/static/js/count.min.js"></script>
+<!-- <script async src="/static/js/count_index.min.js"></script> -->
+  <!-- Baidu analytics -->
+  
+  <!-- Google analytics -->
+  
+
+    
+  </body>
+</html>

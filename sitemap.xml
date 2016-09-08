@@ -1,17 +1,37 @@
----
-layout: null
-title : Sitemap
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for post in site.posts %}
+
     <url>
-        <loc>{{site.url}}{{ post.url }}</loc>
+        <loc>http://sauraus.ch/2016/09/08/willkommen-to-sauraus-ch.html</loc>
     </url>
-{% endfor %}
-{% for page in site.pages %}
+
+
     <url>
-        <loc>{{site.url}}{{ page.url }}</loc>
+        <loc>http://sauraus.ch/404.html</loc>
     </url>
-{% endfor %}
+
+    <url>
+        <loc>http://sauraus.ch/blog/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/search/cb-search.json</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/feed.xml</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/robots.txt</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/sitemap.xml</loc>
+    </url>
+
 </urlset>

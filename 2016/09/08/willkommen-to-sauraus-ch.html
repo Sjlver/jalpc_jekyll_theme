@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <meta name="author" content="Yakin">
+
+  <title>
+    
+        Sauraus|Willkommen zu Sauraus.ch
+    
+  </title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/static/img/favicon.png">
+
+  <!-- Third-party CSS -->
+  <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/bower_components/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet">
+  <link href="/bower_components/toastr/toastr.min.css" rel="stylesheet">
+  <link href="/bower_components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet">
+  <link rel="stylesheet" href="/search/css/cb-search.css">
+
+  <!-- Custom styles for this template -->
+  <link type="text/css" rel="stylesheet" href="/assets/main.css">
+  <link href="/static/css/pygments.css" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/search/js/bootstrap3-typeahead.min.js"></script>
+
+  <!-- cb-search -->
+  <script src="/search/js/cb-search.js"></script>
+
+  <!-- Mainly scripts -->
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+  <script src="/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+  <!-- Peity -->
+  <script src="/bower_components/peity/jquery.peity.min.js"></script>
+
+  <script src="/bower_components/PACE/pace.min.js"></script>
+  <script src="/bower_components/wow/dist/wow.min.js"></script>
+
+  <!-- Custom and plugin javascript -->
+  <script src="/static/js/inspinia.js"></script>
+
+  <!-- Rickshaw -->
+  <script src="/bower_components/rickshaw/vendor/d3.v3.js"></script>
+  <script src="/bower_components/rickshaw/rickshaw.min.js"></script>
+
+  <!-- jPages -->
+  <script src="/static/js/jPages.js"></script>
+  <script src="/static/js/js.js"></script>
+  <script id="dsq-count-scr" src="//jalpc.disqus.com/count.js" async></script>
+  <script type="text/javascript">
+        $(function(){
+          /* initiate the plugin */
+          $("div.pag-holder").jPages({
+              containerID  : "pag-itemContainer",
+              perPage      : 5,  /* num of items per page */
+              startPage    : 1,
+              startRange   : 1,
+              midRange     : 3,
+              endRange     : 1
+          });
+      });
+  </script>
+</head>
+
+  
+
+  <body id="page-top" class="landing-page">
+    
+      <div class="search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
+      opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px"
+           placeholder="Search Blog">
+    <div style="position: fixed; top: 16px; right: 16px; z-index: 9999;">
+        <img src="/search/img/cb-close.png"  id="close-btn"/>
+    </div>
+</div>
+
+<div style="position: fixed; right: 16px; bottom: 20px; z-index: 9999;">
+    <img src="/search/img/cb-search.png"  id="search-btn"  title="Double click Ctrl"/>
+</div>
+
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar">ttt</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Sauraus</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="/">Home</a></li>
+                    <li class="active"><a class="page-scroll" href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+    
+
+    <div class="wrapper wrapper-content  animated fadeInRight article">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="ibox">
+                <div class="ibox-content">
+                    <div class="pull-right">
+                    	
+                    </div>
+                    <div class="text-center article-title">
+                        <h1>
+                            Willkommen zu Sauraus.ch
+                        </h1>
+                    <span class="text-muted"><i class="fa fa-clock-o"></i> 8 Sep 2016</span>
+                    </div>
+                    	<p>August 2017 – ein Wochenende für Leiterinnen und Leiter des Cevi Region Bern.
+Wir können’s kaum erwarten und freuen uns auf ein einmaliges, fröhliches Event.
+Mit dir? Hoffentlich! Bis bald!</p>
+
+<p>Diese Website wird dir praktische Informationen, Fotos und Unterlagen zum Event
+bieten. Und falls mal was fehlt, darst du dich gerne melden: <a href="mailto:yakin@cevi.ch">yakin@cevi.ch</a></p>
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 style="display: inline;">Tags:</h5>
+                            
+                                <button class="btn btn-white btn-xs" type="button">Infos</button>
+                            
+                        </div>
+                        <div class="col-md-6">
+                            
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- donate -->
+                            
+                            <br>
+                            <!-- share -->
+                            
+                            <br>
+                            <!-- comment -->
+                            
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+      <script async src="/static/js/count_page.js"></script>
+<!-- <script async src="/static/js/count_page.js"></script> -->
+  <!-- Baidu analytics -->
+  
+
+  <!-- Google analytics -->
+  
+
+  
+  
+  <script>
+
+      $(document).ready(function () {
+
+          $('body').scrollspy({
+              target: '.navbar-fixed-top',
+              offset: 80
+          });
+
+          // Page scrolling feature
+          $('a.page-scroll').bind('click', function(event) {
+              var link = $(this);
+              $('html, body').stop().animate({
+                  scrollTop: $(link.attr('href')).offset().top - 50
+              }, 500);
+              event.preventDefault();
+              $("#navbar").collapse('hide');
+          });
+      });
+
+      var cbpAnimatedHeader = (function() {
+          var docElem = document.documentElement,
+                  header = document.querySelector( '.navbar-default' ),
+                  didScroll = false,
+                  changeHeaderOn = 200;
+          function init() {
+              window.addEventListener( 'scroll', function( event ) {
+                  if( !didScroll ) {
+                      didScroll = true;
+                      setTimeout( scrollPage, 250 );
+                  }
+              }, false );
+          }
+          function scrollPage() {
+              var sy = scrollY();
+              if ( sy >= changeHeaderOn ) {
+                  $(header).addClass('navbar-scroll')
+              }
+              else {
+                  $(header).removeClass('navbar-scroll')
+              }
+              didScroll = false;
+          }
+          function scrollY() {
+              return window.pageYOffset || docElem.scrollTop;
+          }
+          init();
+
+      })();
+
+      // Activate WOW.js plugin for animation on scroll
+      new WOW().init();
+
+  </script>
+
+    
+  </body>
+</html>
