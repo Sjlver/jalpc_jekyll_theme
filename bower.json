@@ -1,10 +1,10 @@
 {
-  "name": "jalpc_jekyll_theme",
-  "homepage": "http://www.jack003.com",
+  "name": "sauraus.ch",
+  "homepage": "http://sauraus.ch",
   "authors": [
-    "Jack <407613594@qq.com>"
+    "Sjlver <ltlygwayh@gmail.com>"
   ],
-  "description": "For blog use.",
+  "description": "Sauraus -- Cevi Festival 2017",
   "main": "",
   "license": "MIT",
   "private": true,

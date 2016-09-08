@@ -18,7 +18,7 @@
     {% endif %}
   </title>
   <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "static/img/favicon.ico" | prepend: site.baseurl }}">
+  <link rel="shortcut icon" href="{{ "static/img/favicon.png" | prepend: site.baseurl }}">
 
   <!-- Third-party CSS -->
   <link href="{{"bower_components/bootstrap/dist/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -39,11 +39,7 @@
 
   <!-- cb-search -->
   <script src="{{ "search/js/cb-search.js" | prepend: site.baseurl }}"></script>
-  <script>
-    $(function(){
-        $("pre").css('display','block');
-    });
-  </script>
+
   <!-- Mainly scripts -->
   <script src="{{"bower_components/bootstrap/dist/js/bootstrap.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/metisMenu/dist/metisMenu.min.js"| prepend: site.baseurl }}"></script>
@@ -54,13 +50,13 @@
 
   <script src="{{"bower_components/PACE/pace.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/wow/dist/wow.min.js"| prepend: site.baseurl }}"></script>
+
   <!-- Custom and plugin javascript -->
   <script src="{{"static/js/inspinia.js"| prepend: site.baseurl }}"></script>
 
   <!-- Rickshaw -->
   <script src="{{"bower_components/rickshaw/vendor/d3.v3.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/rickshaw/rickshaw.min.js"| prepend: site.baseurl }}"></script>
-
 
   <!-- jPages -->
   <script src="{{"static/js/jPages.js" | prepend: site.baseurl}}"></script>
