@@ -5,9 +5,6 @@ date:   2016-09-08
 tags:   [Infos]
 ---
 
-Willkommen zu Sauraus.ch
-========================
-
 August 2017 -- ein Wochenende für Leiterinnen und Leiter des Cevi Region Bern.
 Wir können's kaum erwarten und freuen uns auf ein einmaliges, fröhliches Event.
 Mit dir? Hoffentlich! Bis bald!
