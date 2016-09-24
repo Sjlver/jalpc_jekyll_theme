@@ -31,6 +31,14 @@
     </url>
 
     <url>
+        <loc>http://sauraus.ch/bower_components/flipclock/node_modules/grunt/node_modules/js-yaml/examples/sample_document.yaml</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/node_modules/bower/lib/node_modules/github/seed.yml</loc>
+    </url>
+
+    <url>
         <loc>http://sauraus.ch/sitemap.xml</loc>
     </url>
 
