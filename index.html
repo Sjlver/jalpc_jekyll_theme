@@ -271,6 +271,7 @@ permalink: /
             target: '.navbar-fixed-top',
             offset: 80
         });
+
         // Page scrolling feature
         $('a.page-scroll').bind('click', function(event) {
             var link = $(this);
@@ -281,6 +282,7 @@ permalink: /
             $("#navbar").collapse('hide');
         });
     });
+
     var cbpAnimatedHeader = (function() {
         var docElem = document.documentElement,
                 header = document.querySelector( '.navbar-default' ),
@@ -326,6 +328,6 @@ permalink: /
         });
     })();
 
-    // Activate WOW.js plugin for animation on scrol
+    // Activate WOW.js plugin for animation on scroll
     new WOW().init();
 </script>

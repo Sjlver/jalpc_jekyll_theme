@@ -41,7 +41,7 @@ disqus:
 
 # google analytics
 ga:
-#  id: UA-73784599-1
+  id: UA-84705254-1
 
 # other settings
 encoding: "utf-8"
