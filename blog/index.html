@@ -60,7 +60,6 @@
   <!-- jPages -->
   <script src="/static/js/jPages.js"></script>
   <script src="/static/js/js.js"></script>
-  <script id="dsq-count-scr" src="//jalpc.disqus.com/count.js" async></script>
   <script type="text/javascript">
         $(function(){
           /* initiate the plugin */
@@ -209,70 +208,77 @@
 
 
     
-      <script async src="/static/js/count_page.js"></script>
-<!-- <script async src="/static/js/count_page.js"></script> -->
-  <!-- Baidu analytics -->
-  
+      
+
 
   <!-- Google analytics -->
-  
-
-  
-  
   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      $(document).ready(function () {
-
-          $('body').scrollspy({
-              target: '.navbar-fixed-top',
-              offset: 80
-          });
-
-          // Page scrolling feature
-          $('a.page-scroll').bind('click', function(event) {
-              var link = $(this);
-              $('html, body').stop().animate({
-                  scrollTop: $(link.attr('href')).offset().top - 50
-              }, 500);
-              event.preventDefault();
-              $("#navbar").collapse('hide');
-          });
-      });
-
-      var cbpAnimatedHeader = (function() {
-          var docElem = document.documentElement,
-                  header = document.querySelector( '.navbar-default' ),
-                  didScroll = false,
-                  changeHeaderOn = 200;
-          function init() {
-              window.addEventListener( 'scroll', function( event ) {
-                  if( !didScroll ) {
-                      didScroll = true;
-                      setTimeout( scrollPage, 250 );
-                  }
-              }, false );
-          }
-          function scrollPage() {
-              var sy = scrollY();
-              if ( sy >= changeHeaderOn ) {
-                  $(header).addClass('navbar-scroll')
-              }
-              else {
-                  $(header).removeClass('navbar-scroll')
-              }
-              didScroll = false;
-          }
-          function scrollY() {
-              return window.pageYOffset || docElem.scrollTop;
-          }
-          init();
-
-      })();
-
-      // Activate WOW.js plugin for animation on scroll
-      new WOW().init();
+    ga('create', 'UA-84705254-1', 'auto');
+    ga('send', 'pageview');
 
   </script>
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        });
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 50
+            }, 500);
+            event.preventDefault();
+            $("#navbar").collapse('hide');
+        });
+    });
+
+    var cbpAnimatedHeader = (function() {
+        var docElem = document.documentElement,
+                header = document.querySelector( '.navbar-default' ),
+                didScroll = false,
+                changeHeaderOn = 200;
+        function init() {
+            window.addEventListener( 'scroll', function( event ) {
+                if( !didScroll ) {
+                    didScroll = true;
+                    setTimeout( scrollPage, 250 );
+                }
+            }, false );
+        }
+        function scrollPage() {
+            var sy = scrollY();
+            if ( sy >= changeHeaderOn ) {
+                $(header).addClass('navbar-scroll')
+            }
+            else {
+                $(header).removeClass('navbar-scroll')
+            }
+            didScroll = false;
+        }
+        function scrollY() {
+            return window.pageYOffset || docElem.scrollTop;
+        }
+        init();
+
+    })();
+
+    // Activate WOW.js plugin for animation on scroll
+    new WOW().init();
+</script>
 
     
   </body>

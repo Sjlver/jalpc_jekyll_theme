@@ -18,11 +18,9 @@
   <link href="/bower_components/animate.css/animate.min.css" rel="stylesheet">
   <link href="/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet">
-  <!-- <link href="/bower_components/toastr/toastr.min.css" rel="stylesheet"> -->
   <link href="/bower_components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet">
   <link href="/bower_components/flipclock/compiled/flipclock.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <!-- <link href="/static/css/pygments.css" rel="stylesheet"> -->
   <link type="text/css" rel="stylesheet" href="/assets/main-39b8996d7a409dccbd1cb3ae302c351951dff44e52478721db282e1650588831.css">
 
   <!-- Third-party scripts -->
@@ -35,7 +33,6 @@
   <script src="/bower_components/wow/dist/wow.min.js"></script>
 
   <!-- Custom and plugin javascript -->
-  <!-- <script src="/static/js/inspinia.js"></script> -->
 
 </head>
 
@@ -312,6 +309,7 @@
             target: '.navbar-fixed-top',
             offset: 80
         });
+
         // Page scrolling feature
         $('a.page-scroll').bind('click', function(event) {
             var link = $(this);
@@ -322,6 +320,7 @@
             $("#navbar").collapse('hide');
         });
     });
+
     var cbpAnimatedHeader = (function() {
         var docElem = document.documentElement,
                 header = document.querySelector( '.navbar-default' ),
@@ -367,18 +366,26 @@
         });
     })();
 
-    // Activate WOW.js plugin for animation on scrol
+    // Activate WOW.js plugin for animation on scroll
     new WOW().init();
 </script>
 
 
     
-      <script async src="/static/js/count.min.js"></script>
-<!-- <script async src="/static/js/count_index.min.js"></script> -->
-  <!-- Baidu analytics -->
-  
-  <!-- Google analytics -->
-  
+      
+
+<!-- Google analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-84705254-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
 
     
   </body>
