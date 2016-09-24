@@ -6566,6 +6566,7 @@ body.landing-page {
     background-repeat: no-repeat;
     background-position: center;
     padding: 15% 0% 0% 23%;
+    margin-top: 75px;
 }
 .landing-page .sauraus-countdown-clock {
   transform: scale(0.5);

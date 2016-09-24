@@ -19,6 +19,7 @@ permalink: /
                   <ul class="nav navbar-nav navbar-right" id="i18_navbar">
                       <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
                       <li><a class="page-scroll" href="#about"><span data-i18n="nav.about">{{ site.landing.about }}</span></a></li>
+                      <li><a class="page-scroll" href="#pictures"><span data-i18n="nav.pictures">{{ site.landing.pictures }}</span></a></li>
                       <li><a class="page-scroll" href="#what_where"><span data-i18n="nav.what_where">{{ site.landing.what_where }}</span></a></li>
                       <li><a class="page-scroll" href="#program"><span data-i18n="nav.program">{{ site.landing.program }}</span></a></li>
                       <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
@@ -28,40 +29,6 @@ permalink: /
           </div>
       </nav>
 </div>
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
-
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
-        </div>
-    </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
 <section id="countdown" class="features">
     <div class="container" id="i18_countdown">
         <div class="row m-b-lg">
@@ -89,6 +56,42 @@ permalink: /
                 </p>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="pictures" class="features">
+    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#inSlider" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back one"></div>
+
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption blank">
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back two"></div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </section>
 
@@ -268,7 +271,7 @@ permalink: /
         var docElem = document.documentElement,
                 header = document.querySelector( '.navbar-default' ),
                 didScroll = false,
-                changeHeaderOn = 200;
+                changeHeaderOn = 75;
         function init() {
             window.addEventListener( 'scroll', function( event ) {
                 if( !didScroll ) {
