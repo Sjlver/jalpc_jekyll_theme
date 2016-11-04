@@ -6959,7 +6959,12 @@ body.landing-page {
   font-size: 22px;
   font-weight: 600;
 }
-.landing-page .testimonials {
+.landing-page .register {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background: #d54390 url('../static/img/landing/letter.png') center no-repeat;
+}
+.landing-page .blog {
   padding-top: 80px;
   padding-bottom: 90px;
   background: #d54390 url('../static/img/landing/pen.png') center no-repeat;
