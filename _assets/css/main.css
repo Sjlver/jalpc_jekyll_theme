@@ -6559,18 +6559,20 @@ body.landing-page {
   /* RESPONSIVE CSS
   -------------------------------------------------- */
 }
+
+/* Countdown. Two versions, depending on screen size. */
+.landing-page .sauraus-countdown-outer {
+    margin: 0px auto;
+}
 .landing-page .sauraus-countdown-wrapper {
     background-image: url(../static/img/landing/countdown_sau.png);
-    height: 320px;
-    width: 600px;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 75px auto 0px auto;
-    padding: 168px 0px 0px 65px;
-}
-.landing-page .sauraus-countdown-clock {
-  transform: scale(0.5);
+
+    padding: 405px 0px 0px 420px;
+    height: 640px;
+    width: 1200px;
 }
 .landing-page .sauraus-countdown-clock .flip-clock-divider .flip-clock-label {
     top: 5.5em;
@@ -6578,6 +6580,29 @@ body.landing-page {
     font-size: 20px;
     font-family: fantasy;
 }
+@media (min-width: 600px) {
+  .landing-page .sauraus-countdown-outer {
+      height: 460px;
+      width: 600px;
+  }
+  .landing-page .sauraus-countdown-wrapper {
+      margin-left: -300px;
+      margin-top: -90px;
+      transform: scale(0.5);
+  }
+}
+@media (max-width: 599px) {
+  .landing-page .sauraus-countdown-outer {
+      height: 380px;
+      width: 300px;
+  }
+  .landing-page .sauraus-countdown-wrapper {
+      margin-left: -450px;
+      margin-top: -90px;
+      transform: scale(0.25);
+  }
+}
+
 .landing-page span.navy {
   color: #d54390;
 }
