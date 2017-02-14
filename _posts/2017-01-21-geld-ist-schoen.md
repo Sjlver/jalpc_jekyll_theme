@@ -13,14 +13,21 @@ Der Cevi möchte mit dem Sauraus-Festival den aktiven Leiterinnen und Leitern
 die Teilnahmegebühren tief halten. Damit das möglich ist, freuen wir uns über
 Spenden:
 
-```
-Cevi Region Bern
+<pre class="highlight" style="position: relative;"><code><button
+  class="btn" id="donate-clipboard" data-clipboard-text="CH60 0900 0000 3109 7999 9" style="position: absolute; top: 5px; right: 5px;" title="Kontonummer kopieren">
+  <img src="/static/img/octicons/clippy.svg" alt="Kontonummer kopieren">
+</button>Cevi Region Bern
 Cevi Festival 2017
 IBAN: CH60 0900 0000 3109 7999 9
-```
+Postkonto: 31-97999-9</code>
+</pre>
 
 Neben direkten Spenden können Sie das Festival über eine
 <a href="http://www.icareforyou.ch/icfy/src/#!/projectdetail/3486/dankesfest-fuer-ehrenamtliche-cevi-leitende">
 Crowdfunding-Kampagne</a> unterstützen. Als Unterstützerin oder Unterstützer
 werden Sie regelmässig übers Projekt auf dem Laufenden gehalten. Ausserdem
 erwartet Sie ein kleines Dankeschön aus dem Festival.
+
+<script>
+  new Clipboard('#donate-clipboard');
+</script>
