@@ -22,11 +22,14 @@ IBAN: CH60 0900 0000 3109 7999 9
 Postkonto: 31-97999-9</code>
 </pre>
 
-Neben direkten Spenden können Sie das Festival über eine
+
+<h2>Crowdfunding</h2>
+
+Neben direkten Spenden haben wir auch über eine
 <a href="http://www.icareforyou.ch/icfy/src/#!/projectdetail/3486/dankesfest-fuer-ehrenamtliche-cevi-leitende">
-Crowdfunding-Kampagne</a> unterstützen. Als Unterstützerin oder Unterstützer
-werden Sie regelmässig übers Projekt auf dem Laufenden gehalten. Ausserdem
-erwartet Sie ein kleines Dankeschön aus dem Festival.
+Crowdfunding-Kampagne</a> Geld fürs Festival gesammelt.
+Dabei sind über 6000 Franken Spenden zusammengekommen. Wir bedanken uns ganz
+herzlich bei allen, die das Sauraus-Festival so unterstützt haben.
 
 <script>
   new Clipboard('#donate-clipboard');
