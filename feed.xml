@@ -5,9 +5,37 @@
     <description>Sauraus -- Cevi Festival 2017</description>
     <link>http://sauraus.ch//</link>
     <atom:link href="http://sauraus.ch//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Apr 2017 16:40:46 +0200</pubDate>
-    <lastBuildDate>Thu, 06 Apr 2017 16:40:46 +0200</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 23:03:22 +0200</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 23:03:22 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Anfahrt</title>
+        <description>&lt;p&gt;Das Sauraus-Festival findet beim Schulhaus Unterlangenegg statt.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; margin-bottom: 1em&quot;&gt;
+  &lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2303.6363343171324!2d7.696433489269965!3d46.79646865279986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sch!4v1497097806963&quot; width=&quot;400&quot; height=&quot;300&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Für die Anreise bitten wir euch, eine der folgenden ÖV-Verbindungen zu benutzen,
+da keine Parkplätze zur Verfügung stehen.&lt;/p&gt;
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Bahnhof&lt;/th&gt;&lt;th&gt;Zeit&lt;/th&gt;&lt;th&gt;Dauer&lt;/th&gt;&lt;th&gt;Reise mit&lt;/th&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Thun, Bahnhof&lt;/td&gt;&lt;td&gt;ab 16:02&lt;/td&gt;&lt;td&gt;28 min&lt;/td&gt;&lt;td&gt;NFB 42&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Unterlangenegg, Hänni&lt;/td&gt;&lt;td&gt;an 16:26&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Thun, Bahnhof&lt;/td&gt;&lt;td&gt;ab 17:02&lt;/td&gt;&lt;td&gt;28 min&lt;/td&gt;&lt;td&gt;NFB 42&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Unterlangenegg, Hänni&lt;/td&gt;&lt;td&gt;an 17:26&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sat, 10 Jun 2017 00:00:00 +0200</pubDate>
+        <link>http://sauraus.ch//2017/06/10/anfahrt.html</link>
+        <guid isPermaLink="true">http://sauraus.ch//2017/06/10/anfahrt.html</guid>
+        
+        <category>Infos</category>
+        
+        
+      </item>
     
       <item>
         <title>Geld ist schön</title>
@@ -29,11 +57,13 @@ IBAN: CH60 0900 0000 3109 7999 9
 Postkonto: 31-97999-9&lt;/code&gt;
 &lt;/pre&gt;
 
-&lt;p&gt;Neben direkten Spenden können Sie das Festival über eine
+&lt;h2&gt;Crowdfunding&lt;/h2&gt;
+
+&lt;p&gt;Neben direkten Spenden haben wir auch über eine
 &lt;a href=&quot;http://www.icareforyou.ch/icfy/src/#!/projectdetail/3486/dankesfest-fuer-ehrenamtliche-cevi-leitende&quot;&gt;
-Crowdfunding-Kampagne&lt;/a&gt; unterstützen. Als Unterstützerin oder Unterstützer
-werden Sie regelmässig übers Projekt auf dem Laufenden gehalten. Ausserdem
-erwartet Sie ein kleines Dankeschön aus dem Festival.&lt;/p&gt;
+Crowdfunding-Kampagne&lt;/a&gt; Geld fürs Festival gesammelt.
+Dabei sind über 6000 Franken Spenden zusammengekommen. Wir bedanken uns ganz
+herzlich bei allen, die das Sauraus-Festival so unterstützt haben.&lt;/p&gt;
 
 &lt;script&gt;
   new Clipboard('#donate-clipboard');
