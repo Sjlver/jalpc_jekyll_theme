@@ -2,21 +2,18 @@
 
 <http://sauraus.ch>
 
+### Installing and building the site
+
 ```
 $ git clone git@github.com:Sjlver/sauraus.ch.git
 $ cd sauraus.ch
-$ gem install jekyll
-$ rm -rf _site && jekyll server
+$ bundle install
+$ bundle exec jekyll serve -w
 ```
 
-...
-```
-### Jekyll Serve
+... and go to http://localhost:4000
 
-Then, start the Jekyll Server. I always like to give the --watch option so it updates the generated HTML when I make changes.
+### Deploying the website
 
-```
-$ jekyll serve --watch
-```
-
-Now you can navigate to localhost:4000 in your browser to see the site.
+Try the `_deploy.sh` script. It should build the site and create a commit in the
+`gh-pages` branch, which you can then push to GitHub.
