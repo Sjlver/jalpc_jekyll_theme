@@ -92,7 +92,7 @@ module Jekyll
           if(curr["album"] == text.strip)
             @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
                                       <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
-                                        <img alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/images/photography/thumbnails/'+curr["img"]+'.jpg"/>
+                                        <img alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/'+curr["img"]+'.jpg"/>
                                         <meta itemprop="name" content="'+curr["title"]+'" />
                                         <meta itemprop="isFamilyFriendly" content="true" />
                                         <div itemprop="creator" itemscope itemtype="http://schema.org/Person">

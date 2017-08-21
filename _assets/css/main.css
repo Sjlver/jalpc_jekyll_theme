@@ -6741,16 +6741,16 @@ body.landing-page {
   width: 100%;
 }
 .landing-page .header-back.one {
-  background: url('../static/img/landing/header_fackeln.jpg') 50% 0 no-repeat;
+  background: url('../static/img/headers/header_fackeln.jpg') 50% 0 no-repeat;
 }
 .landing-page .header-back.two {
-  background: url('../static/img/landing/header_team.jpg') 50% 0 no-repeat;
+  background: url('../static/img/headers/header_team.jpg') 50% 0 no-repeat;
 }
 .landing-page .header-back.three {
-  background: url('../static/img/landing/header_cevi_faegt.jpg') 50% 0 no-repeat;
+  background: url('../static/img/headers/header_cevi_faegt.jpg') 50% 0 no-repeat;
 }
 .landing-page .header-back.four {
-  background: url('../static/img/landing/header_tichu.jpg') 50% 0 no-repeat;
+  background: url('../static/img/headers/header_tichu.jpg') 50% 0 no-repeat;
 }
 .landing-page .carousel {
   height: 280px;

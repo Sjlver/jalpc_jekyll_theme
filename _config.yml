@@ -47,18 +47,18 @@ ga:
 #Jekyll-Photo-Gallery Settings
 exiftag:
   sources:
-    - images/photography #Set to location of photos
+    - static/img/fotos #Set to location of photos
 
 #MiniMagick
 #https://github.com/zroger/jekyll-minimagick
 mini_magick:
-    photography:
-        source: images/photography
-        destination: images/photography/thumbnails
-        resize: "1280x720"
+    fotos:
+        source: static/img/fotos
+        destination: static/img/fotos/thumbnails
+        resize: "400x250"
     headers:
-        source: images/headers
-        destination: images/headers/thumbnails
+        source: static/img/headers
+        destination: static/img/headers/thumbnails
         resize: "400x250"
 
 # other settings

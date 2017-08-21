@@ -23,8 +23,7 @@ Try the `_deploy.sh` script. It should build the site and create a commit in the
 This page uses a Jekyll gallery plugin from
 <https://github.com/aerobless/jekyll-photo-gallery>. To add pictures:
 
-- Put them into images/photography
-  FIXME change path
+- Put them into `static/img/fotos`
 - Scale them down a bit. Images are stored in the git repository, so it's good
   to have them somewhat small. I use the following:
 
