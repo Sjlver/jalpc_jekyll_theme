@@ -2,11 +2,9 @@
 layout: default
 ---
  
-<!-- Use CSS to set the width etc. of the gallery -->
-<div id="main" role="main" style="width: 70%; margin: auto; margin-top: 30px;">
-    <div class="wrap">
-        <div>
-            <br>
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
             <h1>Albums</h1>
             <div>
                 {% for post in site.posts %}
@@ -16,13 +14,12 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-        <div class="photoStreamTitle">
-            <br>
-            <h1>Photo Stream</h1>
-            <div id="gallery" style="display:none; margin-bottom: 20px;"></div>
+        <div class="col-lg-10 col-lg-offset-1">
+            <h1>Alle Fotos</h1>
+            <div id="gallery" style="display: none;"></div>
         </div>
-    </div><!-- /.wrap -->
-</div><!-- /#main -->
+    </div>
+</div>
 
 <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
 <script src="{{ site.url }}/js/plugins/jquery.justifiedGallery.min.js"></script>
