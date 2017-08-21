@@ -50,8 +50,8 @@ module Jekyll
       begin
         exif = EXIFR::JPEG::new(file_name)
         return tag.split('.').inject(exif){|o,m| o.send(m)}
-      #rescue
-      #  ""
+      rescue
+        ""
       end
     end
 
