@@ -61,9 +61,9 @@
       </div>
       <div>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
-           href="{{ site.url }}/photography/{{page.previous_pic}}" style="float: left;">Newer</a>
+           href="{{ site.url }}/fotos/{{page.previous_pic}}" style="float: left;">Newer</a>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
-           href="{{ site.url }}/photography/{{page.next_pic}}" style="float: right;">Older</a>
+           href="{{ site.url }}/fotos/{{page.next_pic}}" style="float: right;">Older</a>
       </div>
       <br><br>
 
@@ -141,20 +141,20 @@
     var pOffset = $(this).offset();
     var x = e.pageX - pOffset.left;
     if (pWidth / 2 > x) {
-      window.location.href = '{{ site.url }}/photography/{{page.previous_pic}}';
+      window.location.href = '{{ site.url }}/fotos/{{page.previous_pic}}';
     }
     else {
-      window.location.href = '{{ site.url }}/photography/{{page.next_pic}}';
+      window.location.href = '{{ site.url }}/fotos/{{page.next_pic}}';
     }
   });
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
       case 37: //left click
-        window.location.href = '{{ site.url }}/photography/{{page.previous_pic}}';
+        window.location.href = '{{ site.url }}/fotos/{{page.previous_pic}}';
         break;
       case 39: //right click
-        window.location.href = '{{ site.url }}/photography/{{page.next_pic}}';
+        window.location.href = '{{ site.url }}/fotos/{{page.next_pic}}';
         break;
     }
   };

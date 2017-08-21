@@ -68,7 +68,7 @@
     //{% for photo in page.photolist %}
     photos.push({
         title: "{{ photo.title }}",
-        url: "{{ site.url }}/photography/{{ photo.title | toStub }}/",
+        url: "{{ site.url }}/fotos/{{ photo.title | toStub }}/",
         thumbnail: "{{ site.url }}/static/img/fotos/thumbnails/{{ photo.img }}.jpg",
         date: "{% exiftag date_time_original, %}{{ photo.img }}.jpg{% endexiftag %}"
     });

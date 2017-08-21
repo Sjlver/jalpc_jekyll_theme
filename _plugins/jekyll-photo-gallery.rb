@@ -39,9 +39,9 @@ module Jekyll
 
     def generate(site)
       photos = YAML::load_file('_data/photos.yaml')
-      dir = site.config['photo_dir'] || 'photography'
+      dir = site.config['photo_dir'] || 'fotos'
 
-      site.pages << PhotoList.new(site, site.source, File.join(dir), photos["photos"], "Photography")
+      site.pages << PhotoList.new(site, site.source, File.join(dir), photos["photos"], "Fotos")
 
       #Reference in site, used for sitemap
       photoSlugs = Array.new
@@ -91,7 +91,7 @@ module Jekyll
         [nil, *details, nil].each_cons(3){|prev, curr, nxt|
           if(curr["album"] == text.strip)
             @result = @result+'<div itemscope itemtype="http://schema.org/Photograph">
-                                      <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/photography/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
+                                      <a itemprop="image" class="swipebox" title="'+curr["title"]+'" href="/fotos/'+curr["title"].strip.gsub(' ', '-').gsub(/[^\w-]/, '')+'/">
                                         <img alt="'+curr["title"]+'" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/'+curr["img"]+'.jpg"/>
                                         <meta itemprop="name" content="'+curr["title"]+'" />
                                         <meta itemprop="isFamilyFriendly" content="true" />
