@@ -185,9 +185,9 @@
       </div>
       <div>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
-           href="/fotos/Sarasani-knpfen" style="float: left;">Neuer</a>
+           href="/fotos/Sarasani-knpfen-I" style="float: left;">Neuer</a>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
-           href="/fotos/Sarasani-knpfen" style="float: right;">Älter</a>
+           href="/fotos/Sarasani-knpfen-II" style="float: right;">Älter</a>
       </div>
       <br><br>
 
@@ -246,20 +246,20 @@
     var pOffset = $(this).offset();
     var x = e.pageX - pOffset.left;
     if (pWidth / 2 > x) {
-      window.location.href = '/fotos/Sarasani-knpfen';
+      window.location.href = '/fotos/Sarasani-knpfen-I';
     }
     else {
-      window.location.href = '/fotos/Sarasani-knpfen';
+      window.location.href = '/fotos/Sarasani-knpfen-II';
     }
   });
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
       case 37: //left click
-        window.location.href = '/fotos/Sarasani-knpfen';
+        window.location.href = '/fotos/Sarasani-knpfen-I';
         break;
       case 39: //right click
-        window.location.href = '/fotos/Sarasani-knpfen';
+        window.location.href = '/fotos/Sarasani-knpfen-II';
         break;
     }
   };
