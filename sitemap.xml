@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>http://sauraus.ch/2017/08/20/aufbautag.html</loc>
+    </url>
+
+    <url>
         <loc>http://sauraus.ch/2017/06/10/anfahrt.html</loc>
     </url>
 
@@ -40,6 +44,54 @@
 
     <url>
         <loc>http://sauraus.ch/sitemap.xml</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Joachim-und-Juli-laminieren-Wegweiser/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Wegweiser/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Sarasani-knpfen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Ein-Drittel-unseres-Meisterwerks/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Sarasani-knpfen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Sarasani-knpfen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Die-Sarasaniblachen-zusammenrollen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Die-Sarasaniblachen-zusammenrollen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Ein-Drittel-Sarasani-beim-Abtransport/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/</loc>
+    </url>
+
+    <url>
+        <loc>http://sauraus.ch/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/</loc>
     </url>
 
 </urlset>

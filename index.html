@@ -10,6 +10,7 @@
   <meta name="keywords" content="Cevi, Cevi Region Bern, Festival, Leiterevent, Sauraus">
   <meta name="author" content="Yakin">
   <title>Sauraus</title>
+
   <!-- favicon -->
   <link rel="shortcut icon" href="/static/img/favicon.png">
 
@@ -20,8 +21,12 @@
   <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet">
   <link href="/bower_components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet">
   <link href="/bower_components/flipclock/compiled/flipclock.css" rel="stylesheet">
+  <link href="/static/css/animsition.css" rel="stylesheet">
+  <link href="/static/css/jekyll-photo-gallery.css" rel="stylesheet">
+  <link href="/static/css/justifiedGallery.min.css" rel="stylesheet">
+
   <!-- Custom styles for this template -->
-  <link type="text/css" rel="stylesheet" href="/assets/main-eb4cc262aa088b63400a5d3e4e2f7ccd2097fd483ca7dbcf04a37f54b585ceab.css">
+  <link type="text/css" rel="stylesheet" href="/assets/main-83d7639e957435ae6416a0e50ead5eb712c5a3a43ddb946801c13f7b82566af7.css">
 
   <!-- Third-party scripts -->
   <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
@@ -33,6 +38,7 @@
   <script src="/bower_components/wow/dist/wow.min.js"></script>
 
   <!-- Custom and plugin javascript -->
+  <script src="/static/js/jquery.justifiedGallery.min.js"></script>
 
 </head>
 
@@ -58,6 +64,7 @@
                       <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">Home</span></a></li>
                       <li><a class="page-scroll" href="#about"><span data-i18n="nav.about">Über uns</span></a></li>
                       <li><a class="page-scroll" href="#praktische_infos"><span>Infos</span></a></li>
+                      <li><a class="page-scroll" href="#fotos"><span>Fotos</span></a></li>
                       <li><a class="page-scroll" href="#dabei_sein"><span>Dabei sein</span></a></li>
                       <li><a href="/blog"><span data-i18n="nav.blog">Blog</span></a></li>
                   </ul>
@@ -75,10 +82,10 @@
                 </p>
                 <h3>Aktuelles</h3>
                 <p>
-                Hier gibt's <a href="#praktische_infos">praktische Infos zum Festival</a>.
+                Die ersten <a href="#fotos">Fotos vom Festival</a> sind da!
                 </p>
                 <p>
-                Wenn du beim Festival mithelfen willst, kannst du dir hier <a href="#dabei_sein">eine Aufgabe auswählen</a>.
+                Hier gibt's <a href="#praktische_infos">praktische Infos zum Festival</a>.
                 </p>
             </div>
             <div class="col-md-6 sauraus-countdown-outer">
@@ -201,19 +208,6 @@
                             <p>Bitte benützt <a href="/2017/06/10/anfahrt.html">diese ÖV-Verbindungen</a>, um zum Festival und zurück zu gelangen.</p>
                         </div>
                     </div>
-                    <!-- Anmelden? -->
-                    <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                        <div class="vertical-timeline-content wow rotateInUpRight">
-                            <h2>Anmelden?</h2>
-                            <p>Es ist immer noch möglich, sich fürs Festival anzumelden:
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScllEWNpjAB074cre3iacfhll2vxKNHHyeU_yS5YOEBAHl6ZQ/viewform">
-                            Anmeldeformular.</a></p>
-                            <p>Bis Ende Juni kostet die Anmeldung 40 Franken pro Person. Danach steigen die Preise auf 45 Franken im Juli und 50 Franken im August.</p>
-                        </div>
-                    </div>
                     <!-- Finanzen -->
                     <div class="vertical-timeline-block">
                         <div class="vertical-timeline-icon navy-bg wow rotateIn">
@@ -231,20 +225,94 @@
     </div>
 </section>
 
-<!--
-<section id="register" class="navy-section register" style="margin-top: 0">
+<section id="fotos" class="navy-section" style="margin-top: 0">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-6 text-center wow zoomIn">
-                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScllEWNpjAB074cre3iacfhll2vxKNHHyeU_yS5YOEBAHl6ZQ/viewform">Anmelden</a>
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Die neusten Fotos</h1>
             </div>
-            <div class="col-xs-6 text-center wow zoomIn">
-                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLSddC9Ner7Wk_ltk5Xo5xehRxj9Cxi9wOmhcfiPgq5UbDRgeFw/viewform">Mithelfen</a>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div id="gallery" style="display:none; margin-bottom: 20px;"><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Joachim und Juli laminieren Wegweiser" href="/fotos/Joachim-und-Juli-laminieren-Wegweiser/">
+                                        <img alt="Joachim und Juli laminieren Wegweiser" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/01_wegweiser.jpg"/>
+                                        <meta itemprop="name" content="Joachim und Juli laminieren Wegweiser" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Wegweiser" href="/fotos/Wegweiser/">
+                                        <img alt="Wegweiser" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/02_wegweiser.jpg"/>
+                                        <meta itemprop="name" content="Wegweiser" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Sarasani knüpfen" href="/fotos/Sarasani-knpfen/">
+                                        <img alt="Sarasani knüpfen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/03_knuepfen.jpg"/>
+                                        <meta itemprop="name" content="Sarasani knüpfen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Ein Drittel unseres Meisterwerks" href="/fotos/Ein-Drittel-unseres-Meisterwerks/">
+                                        <img alt="Ein Drittel unseres Meisterwerks" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/04_sarasani_drittel.jpg"/>
+                                        <meta itemprop="name" content="Ein Drittel unseres Meisterwerks" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Sarasani knüpfen" href="/fotos/Sarasani-knpfen/">
+                                        <img alt="Sarasani knüpfen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/05_knuepfen.jpg"/>
+                                        <meta itemprop="name" content="Sarasani knüpfen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Sarasani knüpfen" href="/fotos/Sarasani-knpfen/">
+                                        <img alt="Sarasani knüpfen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/06_knuepfen.jpg"/>
+                                        <meta itemprop="name" content="Sarasani knüpfen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Die Sarasaniblachen zusammenrollen" href="/fotos/Die-Sarasaniblachen-zusammenrollen/">
+                                        <img alt="Die Sarasaniblachen zusammenrollen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/07_rollen.jpg"/>
+                                        <meta itemprop="name" content="Die Sarasaniblachen zusammenrollen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Die Sarasaniblachen zusammenrollen" href="/fotos/Die-Sarasaniblachen-zusammenrollen/">
+                                        <img alt="Die Sarasaniblachen zusammenrollen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/08_rollen.jpg"/>
+                                        <meta itemprop="name" content="Die Sarasaniblachen zusammenrollen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Ein Drittel Sarasani beim Abtransport" href="/fotos/Ein-Drittel-Sarasani-beim-Abtransport/">
+                                        <img alt="Ein Drittel Sarasani beim Abtransport" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/09_sari_drittel_fertig.jpg"/>
+                                        <meta itemprop="name" content="Ein Drittel Sarasani beim Abtransport" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Sauraus-Kernteam und Ressortmitglieder beim Planen" href="/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/">
+                                        <img alt="Sauraus-Kernteam und Ressortmitglieder beim Planen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/10_kernteam.jpg"/>
+                                        <meta itemprop="name" content="Sauraus-Kernteam und Ressortmitglieder beim Planen" />
+                                      </a>
+                                    </div><div itemscope itemtype="http://schema.org/Photograph">
+                                      <a itemprop="image" class="swipebox" title="Sauraus-Kernteam und Ressortmitglieder beim Planen" href="/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/">
+                                        <img alt="Sauraus-Kernteam und Ressortmitglieder beim Planen" itemprop="thumbnailUrl" src="/static/img/fotos/thumbnails/11_kernteam.jpg"/>
+                                        <meta itemprop="name" content="Sauraus-Kernteam und Ressortmitglieder beim Planen" />
+                                      </a>
+                                    </div></div><script>
+                              window.onload=function(){
+                                  $("#gallery").justifiedGallery({
+                                      rowHeight : 220,
+                                      maxRowHeight: 340,
+                                      margins : 5,
+                                      border : 0,
+                                      fixedHeight: false,
+                                      lastRow : 'nojustify',
+                                      captions: true
+                                  });
+                                  $("#gallery").fadeIn(500);
+                              }
+                          </script>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center wow zoomIn">
+                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/fotos/">Mehr Fotos...</a>
             </div>
         </div>
     </div>
 </section>
--->
 
 <section id="dabei_sein" class="project gray-section features">
     <div class="container">
@@ -255,206 +323,15 @@
             </div>
         </div>
         <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScllEWNpjAB074cre3iacfhll2vxKNHHyeU_yS5YOEBAHl6ZQ/viewform">Anmelden</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Als Teilnehmer dabei sein</h4>
-            <p>Du möchtest als Teilnehmer das Sauraus-Festival erleben und es sich gut gehen lassen.</p>
-          </div>
+            <p>Der Anmeldeschluss fürs Sauraus-Festival ist schon vorüber.</p>
+            <p>Es gibt allerdings noch einige freie Plätze als Helferin oder
+            Helfer. Falls du daran interessiert bist, dann <a href="mailto:joachim.v.siebenthal@ceviregionbern.ch?subject=Sauraus-Festival%3A%20als%20HelferIn%20dabei%20sein">kontaktiere uns
+              einfach.</a></p>
         </div>
-        <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScKin_dy00_s45fVcOi_uRYxBjVCovaARUxXh0w_5nFfQjh8A/viewform?usp=pp_url&entry.78027474&entry.1828659174&entry.663020428&entry.140351009&entry.1891488119&entry.1307498247=Programm:+z.B.+Leute+willkommen+heissen,+beim+Gel%C3%A4ndespiel+einen+Posten+leiten,+beim+Gottesdienst+mithelfen&entry.1780012269">Mithelfen: Programm</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Programm</h4>
-            <p>Du möchtest eine Aufgabe im Programm übernehmen? Wir suchen:</p>
-            <table class="table">
-              <tr>
-                <td>Freitag 25. August, 15:00-19:00</td>
-                <td>
-                  Anmeldungen entgegen nehmen, Festivalbändeli verteilen, Infos geben
-                </td>
-                <td>3 von 6 Pers.</td>
-              </tr>
-              <tr>
-                <td>Samstag 26. August, 16:00-18:00</td>
-                <td>
-                  beim Geländespiel Teil 1 mithelfen
-                </td>
-                <td>3/20 Pers.</td>
-              </tr>
-              <tr>
-                <td>Samstag 26. August, 19:30-23:00</td>
-                <td>
-                  beim Geländespiel Teil 2 mithelfen
-                </td>
-                <td>3/20 Pers.</td>
-              </tr>
-              <tr>
-                <td>Sonntag 27. August, 11:00-12:30</td>
-                <td>
-                  beim Gottesdienst mithelfen
-                </td>
-                <td>20 Pers.</td>
-              </tr>
-              <tr>
-                <td>Ganzes Weekend</td>
-                <td>
-                  Moderator / Speaker / Zeltchef
-                </td>
-                <td>1 Pers.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScKin_dy00_s45fVcOi_uRYxBjVCovaARUxXh0w_5nFfQjh8A/viewform?usp=pp_url&entry.78027474&entry.1828659174&entry.663020428&entry.140351009&entry.1891488119&entry.1307498247=Infrastruktur:+Sarasani+bauen,+Deko+basteln,+Material+fahren,+B%C3%BChne+und+Technik...&entry.1780012269">Mithelfen: Infrastruktur</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Infrastruktur</h4>
-            <p>Wir suchen Leute mit Flair fürs Bauen und fürs Kreative:</p>
-            <table class="table">
-              <tr>
-                <td>Sonntag 20. August, 9-16 Uhr</td>
-                <td>
-                  Wegweiser, Deko basteln, Bar usw. fertig bauen, evlt. Sarasani fertig knüpfen
-                </td>
-                <td>2/10 Pers.</td>
-              </tr>
-              <tr>
-                <td>Donnerstag 24. August, 8:30-12:00</td>
-                <td>
-                  Materialzufuhr, Bauten vorbereiten, Loungesessel, Platz abstecken
-                </td>
-                <td>5/10 Pers.</td>
-              </tr>
-              <tr>
-                <td>Donnerstag 24. August, 13:00-16:30</td>
-                <td>
-                  Materialzufuhr, Bauten vorbereiten, Loungesessel, Platz abstecken, Schlammloch vorbereiten
-                </td>
-                <td>5/10 Pers.</td>
-              </tr>
-              <tr>
-                <td>Freitag 25. August, 7-12 Uhr</td>
-                <td>
-                  Bühne aufbauen, Tische aufstellen, Lounge einrichten, Schläuche verlegen
-                </td>
-                <td>9/15 Pers.</td>
-              </tr>
-              <tr>
-                <td>Freitag 25. August, 13-17 Uhr</td>
-                <td>
-                  Sarasani aufstellen, Bühne aufbauen, Technik einrichten, Wohlfühloase einrichten, Schlammloch aufstellen
-                </td>
-                <td>9/15 Pers.</td>
-              </tr>
-              <tr>
-                <td>Samstag 26. August</td>
-                <td>
-                  Notfälle auf dem Platz lösen
-                </td>
-                <td>3 Pers.</td>
-              </tr>
-              <tr>
-                <td>Sonntag, 27. August, Nachmittag</td>
-                <td>
-                  Abbau auf dem Platz
-                </td>
-                <td>12/15 Pers.</td>
-              </tr>
-              <tr>
-                <td>Montag, 28. August</td>
-                <td>
-                  Aufräumen, Transporte
-                </td>
-                <td></td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScKin_dy00_s45fVcOi_uRYxBjVCovaARUxXh0w_5nFfQjh8A/viewform?usp=pp_url&entry.78027474&entry.1828659174&entry.663020428&entry.140351009&entry.1891488119&entry.1307498247=K%C3%BCche:+z.B.+Beim+Kochen+helfen,+Essen+servieren,+...&entry.1780012269">Mithelfen: Küche</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Küche</h4>
-            <p>Magst du gutes Essen und alles, was dazu gehört? Wir suchen:</p>
-            <table class="table">
-              <tr style="text-decoration: line-through;">
-                <td>Festival</td>
-                <td>
-                  Alle Aufgaben besetzt!
-                </td>
-                <td>11/11 Pers.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScKin_dy00_s45fVcOi_uRYxBjVCovaARUxXh0w_5nFfQjh8A/viewform?usp=pp_url&entry.78027474&entry.1828659174&entry.663020428&entry.140351009&entry.1891488119&entry.1307498247=Sanit%C3%A4t+und+Sicherheit&entry.1780012269">Mithelfen: Sicherheit</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Sanität und Sicherheit</h4>
-            <p>Wenn dich nichts so leicht aus der Ruhe bringen kann, dann können wir in diesem Ressort deine Hilfe brauchen!</p>
-            <table class="table">
-              <tr>
-                <td>Freitag 25. August, 16-19 Uhr</td>
-                <td>
-                  Strasse sichern, Check-in und Gesundheitscheck
-                </td>
-                <td>4 Pers.</td>
-              </tr>
-              <tr>
-                <td>Freitag 25. August, 14-19 oder 19-24 Uhr</td>
-                <td>
-                  Patrouille und Standbetreuung
-                </td>
-                <td>7 Pers.</td>
-              </tr>
-              <tr>
-                <td>Samstag 26. August, einige Stunden</td>
-                <td>
-                  Patrouille und Standbetreuung
-                </td>
-                <td>10 Pers.</td>
-              </tr>
-              <tr>
-                <td>Samstag 26. August, 16-23 Uhr</td>
-                <td>
-                  Strasse sichern
-                </td>
-                <td>4 Pers.</td>
-              </tr>
-              <tr>
-                <td>Sonntag 27. August, einige Stunden</td>
-                <td>
-                  Patrouille und Standbetreuung
-                </td>
-                <td>6 Pers.</td>
-              </tr>
-              <tr>
-                <td>Sonntag 27. August, 14-16 Uhr</td>
-                <td>
-                  Strasse sichern
-                </td>
-                <td>4 Pers.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 text-center">
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="https://docs.google.com/forms/d/e/1FAIpQLScKin_dy00_s45fVcOi_uRYxBjVCovaARUxXh0w_5nFfQjh8A/viewform">Mithelfen: Weiteres</a>
-          </div>
-          <div class="col-sm-8">
-            <h4>Weitere Helferinnen und Helfer</h4>
-            <p>Auch andere Aufgaben gibt es. Melde dich einfach bei uns, indem du auf den Knopf klickst und das Formular ausfüllst.</p>
-          </div>
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+            </div>
         </div>
     </div>
     <br>
@@ -579,7 +456,7 @@
     // Countdown timer
     (function() {
         var now = new Date();
-        var then = new Date("Fri Aug 25 2017 12:00:00 GMT+0200 (CEST)");
+        var then = new Date("Fri Aug 25 2017 19:00:00 GMT+0200 (CEST)");
         var diff = (then - now) / 1000;
         console.log("now=", now, "then=", then, "diff=", diff);
         if (diff < 0) { diff = 0 };

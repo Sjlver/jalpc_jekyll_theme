@@ -3,11 +3,94 @@
   <channel>
     <title>Sauraus</title>
     <description>Sauraus -- Cevi Festival 2017</description>
-    <link>http://sauraus.ch//</link>
-    <atom:link href="http://sauraus.ch//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Jul 2017 19:20:02 +0200</pubDate>
-    <lastBuildDate>Wed, 05 Jul 2017 19:20:02 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://sauraus.ch/</link>
+    <atom:link href="http://sauraus.ch/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Aug 2017 13:34:14 +0200</pubDate>
+    <lastBuildDate>Mon, 21 Aug 2017 13:34:14 +0200</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Aufbautag</title>
+        <description>&lt;div id=&quot;gallery&quot; style=&quot;display:none; margin-bottom: 20px;&quot;&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Joachim und Juli laminieren Wegweiser&quot; href=&quot;/fotos/Joachim-und-Juli-laminieren-Wegweiser/&quot;&gt;
+                                        &lt;img alt=&quot;Joachim und Juli laminieren Wegweiser&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/01_wegweiser.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Joachim und Juli laminieren Wegweiser&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Wegweiser&quot; href=&quot;/fotos/Wegweiser/&quot;&gt;
+                                        &lt;img alt=&quot;Wegweiser&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/02_wegweiser.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Wegweiser&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Sarasani knüpfen&quot; href=&quot;/fotos/Sarasani-knpfen/&quot;&gt;
+                                        &lt;img alt=&quot;Sarasani knüpfen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/03_knuepfen.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Sarasani knüpfen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Ein Drittel unseres Meisterwerks&quot; href=&quot;/fotos/Ein-Drittel-unseres-Meisterwerks/&quot;&gt;
+                                        &lt;img alt=&quot;Ein Drittel unseres Meisterwerks&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/04_sarasani_drittel.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Ein Drittel unseres Meisterwerks&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Sarasani knüpfen&quot; href=&quot;/fotos/Sarasani-knpfen/&quot;&gt;
+                                        &lt;img alt=&quot;Sarasani knüpfen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/05_knuepfen.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Sarasani knüpfen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Sarasani knüpfen&quot; href=&quot;/fotos/Sarasani-knpfen/&quot;&gt;
+                                        &lt;img alt=&quot;Sarasani knüpfen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/06_knuepfen.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Sarasani knüpfen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Die Sarasaniblachen zusammenrollen&quot; href=&quot;/fotos/Die-Sarasaniblachen-zusammenrollen/&quot;&gt;
+                                        &lt;img alt=&quot;Die Sarasaniblachen zusammenrollen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/07_rollen.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Die Sarasaniblachen zusammenrollen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Die Sarasaniblachen zusammenrollen&quot; href=&quot;/fotos/Die-Sarasaniblachen-zusammenrollen/&quot;&gt;
+                                        &lt;img alt=&quot;Die Sarasaniblachen zusammenrollen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/08_rollen.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Die Sarasaniblachen zusammenrollen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Ein Drittel Sarasani beim Abtransport&quot; href=&quot;/fotos/Ein-Drittel-Sarasani-beim-Abtransport/&quot;&gt;
+                                        &lt;img alt=&quot;Ein Drittel Sarasani beim Abtransport&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/09_sari_drittel_fertig.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Ein Drittel Sarasani beim Abtransport&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; href=&quot;/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/&quot;&gt;
+                                        &lt;img alt=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/10_kernteam.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; href=&quot;/fotos/Sauraus-Kernteam-und-Ressortmitglieder-beim-Planen/&quot;&gt;
+                                        &lt;img alt=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/11_kernteam.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Sauraus-Kernteam und Ressortmitglieder beim Planen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+                              window.onload=function(){
+                                  $(&quot;#gallery&quot;).justifiedGallery({
+                                      rowHeight : 220,
+                                      maxRowHeight: 340,
+                                      margins : 5,
+                                      border : 0,
+                                      fixedHeight: false,
+                                      lastRow : 'nojustify',
+                                      captions: true
+                                  });
+                                  $(&quot;#gallery&quot;).fadeIn(500);
+                              }
+                          &lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 20 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://sauraus.ch/2017/08/20/aufbautag.html</link>
+        <guid isPermaLink="true">http://sauraus.ch/2017/08/20/aufbautag.html</guid>
+        
+        <category>Fotos</category>
+        
+        
+      </item>
     
       <item>
         <title>Anfahrt</title>
@@ -29,8 +112,8 @@ da keine Parkplätze zur Verfügung stehen.&lt;/p&gt;
 &lt;/table&gt;
 </description>
         <pubDate>Sat, 10 Jun 2017 00:00:00 +0200</pubDate>
-        <link>http://sauraus.ch//2017/06/10/anfahrt.html</link>
-        <guid isPermaLink="true">http://sauraus.ch//2017/06/10/anfahrt.html</guid>
+        <link>http://sauraus.ch/2017/06/10/anfahrt.html</link>
+        <guid isPermaLink="true">http://sauraus.ch/2017/06/10/anfahrt.html</guid>
         
         <category>Infos</category>
         
@@ -71,8 +154,8 @@ herzlich bei allen, die das Sauraus-Festival so unterstützt haben.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 21 Jan 2017 00:00:00 +0100</pubDate>
-        <link>http://sauraus.ch//2017/01/21/geld-ist-schoen.html</link>
-        <guid isPermaLink="true">http://sauraus.ch//2017/01/21/geld-ist-schoen.html</guid>
+        <link>http://sauraus.ch/2017/01/21/geld-ist-schoen.html</link>
+        <guid isPermaLink="true">http://sauraus.ch/2017/01/21/geld-ist-schoen.html</guid>
         
         <category>Infos</category>
         
@@ -89,8 +172,8 @@ Mit dir? Hoffentlich! Bis bald!&lt;/p&gt;
 bieten. Und falls mal was fehlt, darst du dich gerne melden: &lt;a href=&quot;mailto:yakin@cevi.ch&quot;&gt;yakin@cevi.ch&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0200</pubDate>
-        <link>http://sauraus.ch//2016/09/08/willkommen-to-sauraus-ch.html</link>
-        <guid isPermaLink="true">http://sauraus.ch//2016/09/08/willkommen-to-sauraus-ch.html</guid>
+        <link>http://sauraus.ch/2016/09/08/willkommen-to-sauraus-ch.html</link>
+        <guid isPermaLink="true">http://sauraus.ch/2016/09/08/willkommen-to-sauraus-ch.html</guid>
         
         <category>Infos</category>
         

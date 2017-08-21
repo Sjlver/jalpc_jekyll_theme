@@ -11,7 +11,7 @@
 
   <title>
     
-        Sauraus|Geld ist schön
+        Sauraus|Wegweiser
     
   </title>
 
@@ -168,85 +168,148 @@
 
     
 
-    <div class="wrapper wrapper-content  animated fadeInRight article">
-    <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
-            <div class="ibox">
-                <div class="ibox-content">
-                    <div class="pull-right">
-                    	
-                    </div>
-                    <div class="text-center article-title">
-                        <h1>
-                            Geld ist schön
-                        </h1>
-                    <span class="text-muted"><i class="fa fa-clock-o"></i> 21 Jan 2017</span>
-                    </div>
-                    	<blockquote>
-  <p>Geld ist schön. Es ist so praktisch, man kann so viel dafür kaufen.<br />
-– <a href="https://www.youtube.com/watch?v=IfZtNq9ebJ4">die Prinzen</a></p>
-</blockquote>
+    <div id="page-wrapper" class="animsition">
+  <article>
+    <div itemscope itemtype="http://schema.org/Photograph">
 
-<p>Der Cevi möchte mit dem Sauraus-Festival den aktiven Leiterinnen und Leitern
-“Merci!” sagen. Deshalb möchten wir ein geniales Festival organisieren und dabei
-die Teilnahmegebühren tief halten. Damit das möglich ist, freuen wir uns über
-Spenden:</p>
+      <!-- Schema.org BlogPost Invisible Meta-Data -->
+      <meta itemprop="url" content="http://sauraus.ch/fotos/Wegweiser/"/>
+      <meta itemprop="name" content="Wegweiser"/>
+      <meta itemprop="image" content="http://sauraus.ch/static/img/fotos/02_wegweiser.jpg"/>
+      <meta itemprop="thumbnailUrl" content="http://sauraus.ch/static/img/fotos/thumbnails/02_wegweiser.jpg"/>
+      <meta itemprop="description" content=""/>
 
-<pre class="highlight" style="position: relative;"><code><button class="btn" id="donate-clipboard" data-clipboard-text="CH60 0900 0000 3109 7999 9" style="position: absolute; top: 5px; right: 5px;" title="Kontonummer kopieren">
-  <img src="/static/img/octicons/clippy.svg" alt="Kontonummer kopieren" />
-</button>Cevi Region Bern
-Cevi Festival 2017
-IBAN: CH60 0900 0000 3109 7999 9
-Postkonto: 31-97999-9</code>
-</pre>
+      <div id="photo" style="text-align: center; margin-top: 30px;">
+        <img id="picture" style="max-height:100%; max-width:100%;" src="/static/img/fotos/02_wegweiser.jpg" class="entry-feature-image"
+             alt="Wegweiser">
+      </div>
+      <div>
+        <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
+           href="/fotos/Joachim-und-Juli-laminieren-Wegweiser" style="float: left;">Neuer</a>
+        <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
+           href="/fotos/Sarasani-knpfen" style="float: right;">Älter</a>
+      </div>
+      <br><br>
 
-<h2>Crowdfunding</h2>
+      <div class="photoInfoContainer">
+        <div class="photoInfo1">
+          <div>
+            <h2 style="margin-bottom: 0px; margin-top: 0px;">Wegweiser</h2>
+            
+            
+            
+            
+            
+            
+            Fotografiert am 20 August 2017 mit einer 
+            DMC-G1
+            
+            
+          </div>
+        </div>
+        <div class="photoInfo2">
+          <ul>
+            <li> <i
+              class="fa fa-camera-retro"></i>  
+            DMC-G1
+            
+            </li>
+            <li><i class="fa fa-clock-o"></i> 
+            1/400
+            </li>
+            <li><b>F</b> 
+            9/1
+            </li>
+            <li><b>ISO</b> 
+            100
+            </li>
+            <li><b>Social</b>
+<a class="twitter" href="https://twitter.com/intent/tweet?text=Wegweiser&amp;url=http://sauraus.ch/fotos/Wegweiser/&amp" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://sauraus.ch/fotos/Wegweiser/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a class="google-plus"  href="https://plus.google.com/share?url=http://sauraus.ch/fotos/Wegweiser/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
 
-<p>Neben direkten Spenden haben wir auch über eine
-<a href="http://www.icareforyou.ch/icfy/src/#!/projectdetail/3486/dankesfest-fuer-ehrenamtliche-cevi-leitende">
-Crowdfunding-Kampagne</a> Geld fürs Festival gesammelt.
-Dabei sind über 6000 Franken Spenden zusammengekommen. Wir bedanken uns ganz
-herzlich bei allen, die das Sauraus-Festival so unterstützt haben.</p>
+<script src="/static/js/jquery.animsition.min.js"></script>
+<script src="https://use.fontawesome.com/fd9429b8e3.js"></script>
 
 <script>
-  new Clipboard('#donate-clipboard');
+  var photo = $("#photo");
+  var picture = $("#picture");
+  photo.click(function (e) {
+    var pWidth = $(this).innerWidth();
+    var pOffset = $(this).offset();
+    var x = e.pageX - pOffset.left;
+    if (pWidth / 2 > x) {
+      window.location.href = '/fotos/Joachim-und-Juli-laminieren-Wegweiser';
+    }
+    else {
+      window.location.href = '/fotos/Sarasani-knpfen';
+    }
+  });
+
+  document.onkeydown = function (e) {
+    switch (e.keyCode) {
+      case 37: //left click
+        window.location.href = '/fotos/Joachim-und-Juli-laminieren-Wegweiser';
+        break;
+      case 39: //right click
+        window.location.href = '/fotos/Sarasani-knpfen';
+        break;
+    }
+  };
+
+  function fitImageSize(){
+    photo.height("100%");
+    var imageMax = $(window).height()/100*70;
+    var currentContentHeight = photo.height();
+    console.log(imageMax+"  "+currentContentHeight);
+    if(currentContentHeight > imageMax){
+      photo.height(imageMax);
+      photo.width("auto");
+      photo.marginLeft = "auto";
+      photo.height = picture.height;
+    }
+  }
+  fitImageSize();
+
+  //window.addEventListener('resize', fitImageSize(), true);
+  window.onresize = function(event) {
+    fitImageSize();
+  };
+
+  $(document).ready(function () {
+    fitImageSize();
+
+    //Dynamic Transition Support
+    $(".animsition").animsition({
+      inClass: 'fade-in',
+      outClass: 'fade-out',
+      inDuration: 1500,
+      outDuration: 400,
+      linkElement: '.animsition-link',
+      // e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+      loading: true,
+      loadingParentElement: 'body', //animsition wrapper element
+      loadingClass: 'animsition-loading',
+      unSupportCss: [
+        'animation-duration',
+        '-webkit-animation-duration',
+        '-o-animation-duration'
+      ],
+      //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+      //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+      overlay: false,
+      overlayClass: 'animsition-overlay-slide',
+      overlayParentElement: 'body'
+    });
+  });
 </script>
-
-
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5 style="display: inline;">Tags:</h5>
-                            
-                                <button class="btn btn-white btn-xs" type="button">Infos</button>
-                            
-                        </div>
-                        <div class="col-md-6">
-                            
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <!-- donate -->
-                            
-                            <br>
-                            <!-- share -->
-                            
-                            <br>
-                            <!-- comment -->
-                            
-
-
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
     
