@@ -27,8 +27,8 @@ layout: default
     //{% for photo in page.photolist %}
     photos.push({
         title: "{{ photo.title }}",
-        url: "{{ site.url }}/fotos/{{ photo.title | toStub }}/",
-        thumbnail: "{{ site.url }}/static/img/fotos/thumbnails/{{ photo.img }}.jpg",
+        url: "{{ site.baseurl }}fotos/{{ photo.title | toStub }}/",
+        thumbnail: "{{ site.baseurl }}static/img/fotos/thumbnails/{{ photo.img }}.jpg",
         date: "{% exiftag date_time_original, %}{{ photo.img }}.jpg{% endexiftag %}"
     });
     //{% endfor %}
@@ -55,14 +55,9 @@ layout: default
                     "<img alt=\"" + photos[index].title + "\" itemprop=\"thumbnailUrl\"" +
                     "src=\"" + photos[index].thumbnail + "\"\/>\r\n" +
                     "<meta itemprop=\"name\" content=\"" + photos[index].title + "\" \/>\r\n" +
-                    "<meta itemprop=\"isFamilyFriendly\" content=\"true\" \/>\r\n" +
                     "<meta itemprop=\"dateCreated\"" +
                     "content=\"" + photos[index].date + "\"\/>\r\n" +
-                    "<div itemprop=\"creator\" itemscope itemtype=\"http:\/\/schema.org\/Person\">\r\n" +
-                    " <div itemprop=\"sameAs\" href=\"{{ site.url }}\/about\">\r\n" +
-                    "<meta itemprop=\"name\" content=\"{{ site.owner.name }}\"\/>\r\n" +
-                    "<\/div>\r\n" +
-                    "<\/div>\r\n<\/a>\r\n<\/div>");
+                    "<\/a>\r\n<\/div>");
         }
 
         if (photos.length < INITIAL_PHOTO_LOAD){

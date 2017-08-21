@@ -14,14 +14,14 @@ layout: default
       <meta itemprop="description" content="{{page.description}}"/>
 
       <div id="photo" style="text-align: center; margin-top: 30px;">
-        <img id="picture" style="max-height:100%; max-width:100%;" src="{{ site.url }}/static/img/fotos/{{ page.photo_url }}.jpg" class="entry-feature-image"
+        <img id="picture" style="max-height:100%; max-width:100%;" src="{{ site.baseurl }}static/img/fotos/{{ page.photo_url }}.jpg" class="entry-feature-image"
              alt="{{ page.title }}">
       </div>
       <div>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-right"
-           href="{{ site.url }}/fotos/{{page.previous_pic}}" style="float: left;">Neuer</a>
+           href="{{ site.baseurl }}fotos/{{page.previous_pic}}" style="float: left;">Neuer</a>
         <a class="animsition-link btn-social photobtn" data-animsition-out="fade-out-left"
-           href="{{ site.url }}/fotos/{{page.next_pic}}" style="float: right;">Älter</a>
+           href="{{ site.baseurl }}fotos/{{page.next_pic}}" style="float: right;">Älter</a>
       </div>
       <br><br>
 
@@ -78,20 +78,20 @@ layout: default
     var pOffset = $(this).offset();
     var x = e.pageX - pOffset.left;
     if (pWidth / 2 > x) {
-      window.location.href = '{{ site.url }}/fotos/{{page.previous_pic}}';
+      window.location.href = '{{ site.baseurl }}fotos/{{page.previous_pic}}';
     }
     else {
-      window.location.href = '{{ site.url }}/fotos/{{page.next_pic}}';
+      window.location.href = '{{ site.baseurl }}fotos/{{page.next_pic}}';
     }
   });
 
   document.onkeydown = function (e) {
     switch (e.keyCode) {
       case 37: //left click
-        window.location.href = '{{ site.url }}/fotos/{{page.previous_pic}}';
+        window.location.href = '{{ site.baseurl }}fotos/{{page.previous_pic}}';
         break;
       case 39: //right click
-        window.location.href = '{{ site.url }}/fotos/{{page.next_pic}}';
+        window.location.href = '{{ site.baseurl }}fotos/{{page.next_pic}}';
         break;
     }
   };
