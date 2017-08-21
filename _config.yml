@@ -44,6 +44,23 @@ disqus:
 ga:
   id: UA-84705254-1
 
+#Jekyll-Photo-Gallery Settings
+exiftag:
+  sources:
+    - images/photography #Set to location of photos
+
+#MiniMagick
+#https://github.com/zroger/jekyll-minimagick
+mini_magick:
+    photography:
+        source: images/photography
+        destination: images/photography/thumbnails
+        resize: "1280x720"
+    headers:
+        source: images/headers
+        destination: images/headers/thumbnails
+        resize: "400x250"
+
 # other settings
 encoding: "utf-8"
 highlighter: rouge
