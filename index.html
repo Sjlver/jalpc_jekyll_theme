@@ -21,7 +21,6 @@ permalink: /
                       <li><a class="page-scroll" href="#about"><span data-i18n="nav.about">{{ site.landing.about }}</span></a></li>
                       <li><a class="page-scroll" href="#praktische_infos"><span>Infos</span></a></li>
                       <li><a class="page-scroll" href="#fotos"><span>Fotos</span></a></li>
-                      <li><a class="page-scroll" href="#dabei_sein"><span>Dabei sein</span></a></li>
                       <li><a href="/blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
                   </ul>
               </div>
@@ -38,10 +37,10 @@ permalink: /
                 </p>
                 <h3>Aktuelles</h3>
                 <p>
-                Die ersten <a href="#fotos">Fotos vom Festival</a> sind da!
+                <a href="#fotos">Festivalfotos</a> sind da!
                 </p>
                 <p>
-                Hier gibt's <a href="#praktische_infos">praktische Infos zum Festival</a>.
+                Sauraus ist <a href="/2017/09/01/sauraus-im-radio.html">im Radio</a>.
                 </p>
             </div>
             <div class="col-md-6 sauraus-countdown-outer">
@@ -100,6 +99,50 @@ permalink: /
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
+</section>
+
+<section id="danke" class="features gray-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1>Danke für ein geniales Festival</h1>
+            </div>
+        </div>
+        <div class="row features-block">
+            <div class="col-lg-12">
+              <p>Sauraus 2017 ist Geschichte. Eine wunderschöne und legendäre
+              Geschichte voller Freude, Lachen, Fröhlichkeit, wohligem Grunzen
+              im Schlamm, Freundschaft... wir haben mit Gott und unseren
+              Mitmenschen Grosses erlebt!</p>
+              <p>Danke allen, die beim Sauraus mitgemacht haben!</p>
+              <p>Auf dieser Website findet ihr nun <a href="/fotos/">Fotos</a>,
+              <a href="/2017/09/01/sauraus-im-radio.html">Radiobeiträge</a> und
+              weitere Erinnerungen ans Sauraus.</p>
+              <p>Und denkt daran: Sou blibt Sou!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="fotos" class="navy-section">
+    <div class="container">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <h1>Die neusten Fotos</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                {% includeGallery 20170825festival %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center wow zoomIn">
+                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/fotos/">Mehr Fotos...</a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -179,50 +222,6 @@ permalink: /
 
         </div>
     </div>
-</section>
-
-<section id="fotos" class="navy-section" style="margin-top: 0">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Die neusten Fotos</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                {% includeGallery 20170820_aufbautag %}
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-center wow zoomIn">
-                <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/fotos/">Mehr Fotos...</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="dabei_sein" class="project gray-section features">
-    <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Dabei sein</h1>
-            </div>
-        </div>
-        <div class="row">
-            <p>Der Anmeldeschluss fürs Sauraus-Festival ist schon vorüber.</p>
-            <p>Es gibt allerdings noch einige freie Plätze als Helferin oder
-            Helfer. Falls du daran interessiert bist, dann <a href="mailto:joachim.v.siebenthal@ceviregionbern.ch?subject=Sauraus-Festival%3A%20als%20HelferIn%20dabei%20sein">kontaktiere uns
-              einfach.</a></p>
-        </div>
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-            </div>
-        </div>
-    </div>
-    <br>
 </section>
 
 <section id="blog" class="navy-section blog" style="margin-top: 0">
