@@ -5,8 +5,8 @@
     <description>Sauraus -- Cevi Festival 2017</description>
     <link>http://sauraus.ch/</link>
     <atom:link href="http://sauraus.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Sep 2017 22:21:37 +0200</pubDate>
-    <lastBuildDate>Tue, 12 Sep 2017 22:21:37 +0200</lastBuildDate>
+    <pubDate>Sat, 21 Oct 2017 17:25:57 +0200</pubDate>
+    <lastBuildDate>Sat, 21 Oct 2017 17:25:57 +0200</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -36,6 +36,49 @@ könnt ihr euch die einzelnen Beiträge nochmals anhören.&lt;/p&gt;
         <guid isPermaLink="true">http://sauraus.ch/2017/09/01/sauraus-im-radio.html</guid>
         
         <category>Infos</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sauraus von oben</title>
+        <description>&lt;div id=&quot;gallery&quot; style=&quot;display:none; margin-bottom: 20px;&quot;&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Schwein aus Vogelperspektive&quot; href=&quot;/fotos/Schwein-aus-Vogelperspektive/&quot;&gt;
+                                        &lt;img alt=&quot;Schwein aus Vogelperspektive&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/drohne_001.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Schwein aus Vogelperspektive&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Alle mal winken!&quot; href=&quot;/fotos/Alle-mal-winken/&quot;&gt;
+                                        &lt;img alt=&quot;Alle mal winken!&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/drohne_002.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Alle mal winken!&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;div itemscope=&quot;&quot; itemtype=&quot;http://schema.org/Photograph&quot;&gt;
+                                      &lt;a itemprop=&quot;image&quot; class=&quot;swipebox&quot; title=&quot;Die Sauraus-Teilnehmenden von oben gesehen&quot; href=&quot;/fotos/Die-Sauraus-Teilnehmenden-von-oben-gesehen/&quot;&gt;
+                                        &lt;img alt=&quot;Die Sauraus-Teilnehmenden von oben gesehen&quot; itemprop=&quot;thumbnailUrl&quot; src=&quot;/static/img/fotos/thumbnails/drohne_003.jpg&quot; /&gt;
+                                        &lt;meta itemprop=&quot;name&quot; content=&quot;Die Sauraus-Teilnehmenden von oben gesehen&quot; /&gt;
+                                      &lt;/a&gt;
+                                    &lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+                              window.onload=function(){
+                                  $(&quot;#gallery&quot;).justifiedGallery({
+                                      rowHeight : 220,
+                                      maxRowHeight: 340,
+                                      margins : 5,
+                                      border : 0,
+                                      fixedHeight: false,
+                                      lastRow : 'nojustify',
+                                      captions: true
+                                  });
+                                  $(&quot;#gallery&quot;).fadeIn(500);
+                              }
+                          &lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 27 Aug 2017 00:00:00 +0200</pubDate>
+        <link>http://sauraus.ch/2017/08/27/drohne.html</link>
+        <guid isPermaLink="true">http://sauraus.ch/2017/08/27/drohne.html</guid>
+        
+        <category>Fotos</category>
         
         
       </item>
