@@ -9,7 +9,7 @@ if ! git branch | grep -q "* master"; then
   exit 1
 fi
 
-if ! git status | grep -q "nothing to commit, working directory clean"; then
+if ! git status | grep -q "nothing to commit, working tree clean"; then
   echo "Please run git commit first!"
   exit 1
 fi
